@@ -6,8 +6,8 @@ body {
 header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    padding-top: 15rem;
-    padding-bottom: 23.5rem;
+    padding-top: 10rem;
+    padding-bottom: 13rem;
 }
 
 main {
@@ -20,6 +20,7 @@ footer {
 }
 
 #button {
+    margin-top: 1rem;
     border: 0.1rem solid black;
     border-radius: 0.5rem;
     padding: 0.2rem;

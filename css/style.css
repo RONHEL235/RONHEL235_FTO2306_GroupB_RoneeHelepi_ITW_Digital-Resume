@@ -19,3 +19,18 @@ footer {
     padding-bottom: 20rem; 
 }
 
+#button {
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.header-flex {
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+

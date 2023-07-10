@@ -1,5 +1,21 @@
+body {
+    font-family: system-ui;
+    background-color: rgb(232, 218, 218);
+}
+
 header {
     background-image: url("../images/hero.jpeg");
-    height: 30rem;
-    
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 23.5rem;
 }
+
+main {
+    margin: 3rem;
+}
+
+footer {
+    background-color: rgb(218, 205, 205); 
+    padding-bottom: 20rem; 
+}
+

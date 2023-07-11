@@ -20,7 +20,7 @@ footer {
 }
 
 button {
-    margin: 0.6rem 0.2rem;
+    margin-top: 1rem;
     padding: 0.5rem; 
     display: inline-block;
     background-color: inherit;
@@ -28,7 +28,6 @@ button {
     cursor: pointer;
     box-shadow: 0 0 0.3rem rgb(147 74 31/0.6);
     border-radius: 0.2rem;
-
 }
 
 .button-hover:hover {
@@ -45,14 +44,14 @@ a {
 }
 
 .header-flex {
-    padding-left: 0.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding-left: 0.5rem;
 }
 
 #image-size {
-    
+    width: 1.1rem;
+    height: 1.1rem;    
 }
 
 

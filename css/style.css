@@ -7,7 +7,7 @@ header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
     padding-top: 10rem;
-    padding-bottom: 13rem;
+    padding-bottom: 15rem;
 }
 
 main {
@@ -21,7 +21,7 @@ footer {
 
 button {
     margin-top: 1rem;
-    padding: 0.5rem; 
+    padding: 0.3rem; 
     display: inline-block;
     background-color: inherit;
     border: rgb(147 74 31/0.2);
@@ -33,9 +33,18 @@ button {
 .button-hover:hover {
     display: inline-block;
     box-shadow: 0 0 0.3rem rgb(147 74 31/0.2);
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.18 ease;
 }
+
+.button-hover-socials:hover {
+    filter: blur(0);
+    display: inline-block;
+    box-shadow: 0 0 0.3rem rgb(147 74 31/0.2);
+    transform: scale(1.05);
+    transition: 0.18 ease;
+}
+
 
 a {
     Color: rgb(136, 56, 31);

@@ -20,23 +20,32 @@ footer {
 }
 
 button {
+    margin: 0.6rem 0.2rem;
+    padding: 0.5rem; 
     display: inline-block;
     background-color: inherit;
-    margin-top: 1rem;
-    border: 0.1rem solid black;
-    border-radius: 0.5rem;
-    padding: 0.2rem;
-    cursor: pointer;    
+    border: rgb(147 74 31/0.2);
+    cursor: pointer;
+    box-shadow: 0 0 0.3rem rgb(147 74 31/0.6);
+    border-radius: 0.2rem;
+
+}
+
+.button-hover:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem rgb(147 74 31/0.2);
+    transform: scale(1.1);
+    transition: 0.18 ease;
 }
 
 a {
-    Color: rgb(163, 66, 36);
+    Color: rgb(136, 56, 31);
     font-size: 1rem;
     text-decoration: none;
 }
 
 .header-flex {
-    border: 0.1rem solid black;
+    padding-left: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

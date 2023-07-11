@@ -20,10 +20,13 @@ footer {
 }
 
 #button {
+    display: inline-block;
+    background-color: inherit;
     margin-top: 1rem;
     border: 0.1rem solid black;
     border-radius: 0.5rem;
     padding: 0.2rem;
+    cursor: pointer;    
 }
 
 .header-flex {

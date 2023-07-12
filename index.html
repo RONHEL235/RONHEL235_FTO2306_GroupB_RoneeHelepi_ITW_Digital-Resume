@@ -45,12 +45,26 @@
             </section>     
         </main>
         <footer id="footer">
-                
+            <div class="grid">
                 <div>
-                    <form>
-                        <label >Name:</label>
-                    </form>
+                    <h4>Contact Me</h4>
+                    <form class="form-flex" action="https://formsubmit.co/c45b0713e0b11bc41f2ddf650009179b" method="POST">
+                        <label for="name">Name:</label>
+                        <input id="form-flex-item" type="text" id="name" name="user_name" required>
+                        <br>
+                        <label for="mail">Email:</label>
+                        <input id="form-flex-item" type="mail" id="mail" name="user_mail" required>
+                        <br>
+                        <label for="message">Message:</label>
+                        <textarea  id="form-flex-item" id="message" name="user_message" rows="5" column="20"></textarea>
+                        <br>
+                        <input id="form-flex-item" type="submit" value="Submit">  
+                    </form> 
                 </div>
+                <div>
+                    Socials and stuff
+                </div>
+            </div>
         </footer>
     </body>
 </html>

@@ -70,20 +70,28 @@ button {
     flex-direction: row;
 }
 
-#link-hover:after {
-    content: "";
-    display: block
-    position: absolute;
-    height: 0.2rem;
-    width: 0;
-    left: 0;
-    right: -0.6rem;
-    background-color: rgb(136, 56, 31);
-    transition: 0.4s;
+#nav-hover {
+    display: inline-block;
+    position: relative;
+    color:rgb(136, 56, 31)
 }
 
-#link-hover:hover:after {
+#nav-hover::after {
+    content: "";
+    position: absolute;
+    height: 0.2rem;
     width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    background-color: rgb(136, 56, 31);
+    transition: transform 0.25s ease-out;
+}
+
+#nav-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 #image-size {

@@ -18,7 +18,7 @@ main {
 }
 
 footer {
-    background-color: rgb(218, 205, 205);
+    background-color: rgb(233, 211, 212);
     padding: 2rem;
     border-radius: 0.4rem;  
 }
@@ -108,7 +108,7 @@ button {
 }
 
 #form-flex-item {
-    border: 0.125rem solid rgb(136, 56, 31);
+    border: 0.125rem solid black;
     border-radius: 0.2rem;
     font-family: system-ui;
 }
@@ -117,6 +117,14 @@ h4 {
     margin-left: 1rem;
 }
 
-.form-grid {
+.footer-grid {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-gap: 9rem;  
+}
 
+.footer-grid-item {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0.2rem solid black;
 }

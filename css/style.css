@@ -19,7 +19,7 @@ main {
 
 footer {
     background-color: rgb(233, 211, 212);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 0.4rem;  
 }
 
@@ -27,6 +27,10 @@ a {
     Color: rgb(136, 56, 31);
     font-size: 1rem;
     text-decoration: none;
+}
+
+h4 {
+    margin-left: 1rem;
 }
 
 button {
@@ -111,10 +115,6 @@ button {
     border: 0.125rem solid black;
     border-radius: 0.2rem;
     font-family: system-ui;
-}
-
-h4 {
-    margin-left: 1rem;
 }
 
 .footer-grid {

@@ -10,7 +10,6 @@ body {
 header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    padding-top: 10rem;
     padding-bottom: 15rem;
 }
 
@@ -47,10 +46,25 @@ a {
     text-decoration: none;
 }
 
-.header-flex {
+.header-flex-item1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 8rem;
+    Color: rgb(136, 56, 31);
+    font-size: 1rem;
+}
+
+.header-flex-item2 {
     display: flex;
     flex-direction: column;
-    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#header-flex-item {
+    margin-right: 8rem; 
 }
 
 .image-flex {

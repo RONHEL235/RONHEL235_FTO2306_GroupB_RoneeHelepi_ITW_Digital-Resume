@@ -147,6 +147,9 @@ button {
 .socials-flex {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+}
+
+#socials-spacing {
+    margin: 1rem;
 }
 

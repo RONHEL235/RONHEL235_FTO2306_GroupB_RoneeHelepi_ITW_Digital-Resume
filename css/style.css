@@ -10,7 +10,7 @@ body {
 header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    padding-bottom: 15rem;
+    padding-bottom: 19rem;
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 }
 
 footer {
-    background-color: rgb(233, 211, 212);
+    background-color: rgb(195, 192, 192);
     border-radius: 0.4rem;  
 }
 
@@ -123,7 +123,7 @@ button {
 }
 
 .footer-grid-item {
-    margin: 2rem;
+    margin: 1rem 0 1rem 3rem;
     padding: 1rem;
 }
 

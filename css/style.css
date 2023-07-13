@@ -10,7 +10,7 @@ body {
 header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
 }
 
 main {
@@ -149,7 +149,6 @@ button {
 }
 
 #profile-image {
-    margin-top: 2rem;
     height: 12rem;
     width: 12rem;
 }

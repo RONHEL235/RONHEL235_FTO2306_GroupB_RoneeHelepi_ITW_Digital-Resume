@@ -10,7 +10,7 @@ body {
 header {
     background-image: url("../images/hero.jpeg");
     background-size: cover;
-    padding-bottom: 19rem;
+    padding-bottom: 8rem;
 }
 
 main {
@@ -148,3 +148,8 @@ button {
     flex-direction: column;
 }
 
+#profile-image {
+    margin-top: 2rem;
+    height: 12rem;
+    width: 12rem;
+}

@@ -19,7 +19,6 @@ main {
 
 footer {
     background-color: rgb(233, 211, 212);
-    padding: 0.2rem;
     border-radius: 0.4rem;  
 }
 
@@ -145,7 +144,7 @@ button {
 }
 
 .socials-flex {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 

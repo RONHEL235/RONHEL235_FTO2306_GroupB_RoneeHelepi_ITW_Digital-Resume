@@ -19,7 +19,7 @@ main {
 
 footer {
     background-color: rgb(233, 211, 212);
-    padding: 1rem;
+    padding: 0.2rem;
     border-radius: 0.4rem;  
 }
 
@@ -147,9 +147,5 @@ button {
 .socials-flex {
     display: flex;
     flex-direction: column;
-}
-
-#socials-spacing {
-    margin: 1rem;
 }
 

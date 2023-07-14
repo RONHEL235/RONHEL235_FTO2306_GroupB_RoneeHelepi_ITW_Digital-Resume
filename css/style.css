@@ -118,8 +118,8 @@ button {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 20rem 20rem 20rem;
-    grid-gap: 9rem;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5rem;  
 }
 
 .footer-grid-item {
@@ -155,4 +155,144 @@ button {
 
 .main-font-size {
     font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 200px) {
+    header {
+        background-image: url("../images/hero.jpeg");
+        background-size: 300px 400px;
+        background-repeat: no-repeat;
+    }
+    
+    a {
+        Color: rgb(136, 56, 31);
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    
+    button {
+        margin-top: 1rem;
+        padding: 0.3rem; 
+        display: inline-block;
+        background-color: inherit;
+        border: rgb(147 74 31/0.2);
+        cursor: pointer;
+        box-shadow: 0 0 0.3rem rgb(147 74 31/0.6);
+        border-radius: 0.2rem;
+    }
+    
+    .button-hover:hover {
+        display: inline-block;
+        box-shadow: 0 0 0.3rem rgb(147 74 31/0.2);
+        transform: scale(1.05);
+        transition: 0.18 ease;
+    }
+    
+    .header-flex-item-A {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        top: 0;
+        margin-bottom: 8rem;
+        padding: 0.7rem;
+        Color: rgb(136, 56, 31);
+        font-size: 1rem;
+    }
+    
+    .header-flex-item-B {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+    
+    .image-flex {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #nav-hover {
+        display: inline-block;
+        position: relative;
+        color:rgb(136, 56, 31)
+    }
+    
+    #nav-hover::after {
+        content: "";
+        position: absolute;
+        height: 0.2rem;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        background-color: rgb(136, 56, 31);
+        transition: transform 0.25s ease-out;
+    }
+    
+    #nav-hover:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    #image-size {
+        width: 1.1rem;
+        height: 1.1rem;
+        margin: 0.2rem;    
+    }
+    
+    .form-flex {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 1rem;  
+    }
+    
+    #form-flex-item {
+        border: 0.125rem solid black;
+        border-radius: 0.2rem;
+        font-family: system-ui;
+    }
+    
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 20rem 20rem 20rem;
+        grid-gap: 9rem;  
+    }
+    
+    .footer-grid-item {
+        margin: 1rem 0 1rem 3rem;
+        padding: 1rem;
+    }
+    
+    .back-to-top {
+        position: fixed;
+        bottom: 4rem;
+        right: 2rem;
+        text-decoration: none;
+        padding: 0.6rem;
+        border: 0.15rem solid rgb(136, 56, 31); 
+        border-radius: 50%;
+        background-color: inherit;
+    }
+    
+    .back-to-top:hover {
+        transform: scale(1.1);
+        transition: 0.18 ease;
+    }
+    
+    .socials-flex {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    #profile-image {
+        height: 12rem;
+        width: 12rem;
+    }
+    
+    .main-font-size {
+        font-size: 1.1rem;
+    }
+    
 }
